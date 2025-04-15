@@ -14,10 +14,10 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
-var person = new Person("Meghal", "Shah", 22, {
+var meghal = new Person("Meghal", "Shah", 22, {
     street: "PDEU",
     city: "Gandhinagar",
     pincode: 380001,
 }, ["9876543210", "9123456789"]);
-console.log("Full Name:", person.getFullName());
-console.log("Full Address:", person.getFullAddress());
+console.log("Full Name:", meghal.getFullName());
+console.log("Full Address:", meghal.getFullAddress());

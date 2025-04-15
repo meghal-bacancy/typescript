@@ -45,7 +45,7 @@ class Person implements PersonInfo {
     }
 }
   
-const person = new Person(
+const meghal = new Person(
     "Meghal",
     "Shah",
     22,
@@ -57,5 +57,5 @@ const person = new Person(
     ["9876543210", "9123456789"]
 );
   
-console.log("Full Name:", person.getFullName());
-console.log("Full Address:", person.getFullAddress());
+console.log("Full Name:", meghal.getFullName());
+console.log("Full Address:", meghal.getFullAddress());
